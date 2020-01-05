@@ -80,5 +80,4 @@ Clear.grid(row=6, column=1,padx=10,pady=10)
 ANS = Button(root, text="ANSHUMAN",command=ailachu, borderwidth=2, relief=SOLID,font='arial 20 bold',width=18,height=1,bg='black',fg='white')
 ANS.grid(row=7, column=1,padx=10,pady=10,columnspan=8)
 
-root.geometry('500x500')
 root.mainloop()
